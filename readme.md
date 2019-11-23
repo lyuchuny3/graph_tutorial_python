@@ -85,9 +85,38 @@ all path from 0-5:
 ## Step7: Graph with color
 graph with node attributes(color)
 ## Step8: Graph with config file
-## Step8: Sub graph with optimize sort
-see graph3.png
+`graph2.cfg`
+```
+N
+0 0
+1 0
+2 1
+3 0
+4 1
+5 0
 
+E
+0 1
+0 2
+1 3
+2 4
+1 4
+4 3
+3 5
+4 5
+```
+## Step9: Sub graph with optimize sort
+![](graph3.png)
+
+```
+optimize =  0
+sort list: [0, 2, 1, 4, 3, 7, 5, 6, 8]
+[[0], [2], [1], [4, 3], [7, 5, 6, 8]]
+
+optimize =  1
+sort list: [0, 1, 2, 4, 3, 7, 5, 6, 8]
+[[0, 1], [2, 4, 3], [7, 5, 6, 8]]
+```
 ## Reference
 1. [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
 2. [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
