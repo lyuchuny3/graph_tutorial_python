@@ -117,6 +117,20 @@ optimize =  1
 sort list: [0, 1, 2, 4, 3, 7, 5, 6, 8]
 [[0, 1], [2, 4, 3], [7, 5, 6, 8]]
 ```
+
+## Step10: Graph with weighted-edges Dijkstra shortest path
+![](graph4.png)
+
+```
+node 0: (1,3) (2,5)
+node 1: (2,4) (3,5)
+node 2: (3,1)
+node 3: 
+
+[graph4.png] saved !
+{0: (0, -1), 1: (3, 0), 2: (5, 0), 3: (6, 2)}
+0->2->3
+```
 ## Reference
 1. [Graph and its representations](https://www.geeksforgeeks.org/graph-and-its-representations/)
 2. [Breadth First Traversal for a Graph](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)

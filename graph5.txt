@@ -1,0 +1,29 @@
+digraph "graph5" {
+rankdir=LR;
+node [shape=circle];
+node_0 [color=green, label="0", style=filled];
+node_1 [color=yellow, label="1", style=filled];
+node_2 [color=yellow, label="2", style=filled];
+node_3 [color=yellow, label="3", style=filled];
+node_4 [color=yellow, label="4", style=filled];
+node_5 [color=yellow, label="5", style=filled];
+node_6 [color=yellow, label="6", style=filled];
+node_7 [color=yellow, label="7", style=filled];
+node_8 [color=red, label="8", style=filled];
+node_0 -> node_1  [label="3"];
+node_0 -> node_2  [label="7"];
+node_0 -> node_3  [label="5"];
+node_1 -> node_2  [label="1"];
+node_2 -> node_3  [label="3"];
+node_2 -> node_4  [label="2"];
+node_2 -> node_5  [label="3"];
+node_2 -> node_6  [label="1"];
+node_3 -> node_5  [label="2"];
+node_4 -> node_6  [label="2"];
+node_4 -> node_7  [label="1"];
+node_5 -> node_6  [label="3"];
+node_5 -> node_8  [label="4"];
+node_6 -> node_7  [label="3"];
+node_6 -> node_8  [label="2"];
+node_7 -> node_8  [label="5"];
+}
